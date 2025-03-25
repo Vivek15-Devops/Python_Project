@@ -3,6 +3,7 @@ def calculate_total_price(price, tax_rate, discount=0):
    total_price = discounted_price * (1 + tax_rate)
    return total_price
 
+
 def main():
      price = 100
      tax_rate = 0.07
